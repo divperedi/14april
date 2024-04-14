@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: start;
+    margin: 1rem;
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 33px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    margin: 1rem;
+    color: green;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: rgb(142, 235, 2);
+}
